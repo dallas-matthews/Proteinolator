@@ -28,7 +28,7 @@
                                 <animations/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvb-IF-exW">
-                                <rect key="frame" x="16" y="323" width="343" height="21"/>
+                                <rect key="frame" x="144" y="323" width="87" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -58,8 +58,15 @@
                             <constraint firstItem="xXU-SH-Kud" firstAttribute="width" secondItem="Mpi-5r-0NM" secondAttribute="width" id="qRX-mf-W5D"/>
                             <constraint firstItem="xXU-SH-Kud" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="rXN-DT-aKn"/>
                             <constraint firstItem="igZ-tb-PkF" firstAttribute="centerX" secondItem="Mpi-5r-0NM" secondAttribute="centerX" id="vGZ-pC-A99"/>
+                            <constraint firstItem="Hvb-IF-exW" firstAttribute="width" secondItem="igZ-tb-PkF" secondAttribute="width" id="xQb-ME-bN7"/>
                             <constraint firstItem="igZ-tb-PkF" firstAttribute="top" secondItem="Mpi-5r-0NM" secondAttribute="bottom" constant="75" id="yae-vK-X4C"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="eeX-TQ-ah7"/>
+                                <exclude reference="h5d-NE-EjA"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
