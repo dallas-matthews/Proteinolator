@@ -48,10 +48,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="xXU-SH-Kud" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9nh-8u-nO1"/>
+                            <constraint firstItem="Hvb-IF-exW" firstAttribute="width" secondItem="igZ-tb-PkF" secondAttribute="width" id="Cek-Re-wiT"/>
+                            <constraint firstItem="Hvb-IF-exW" firstAttribute="top" secondItem="igZ-tb-PkF" secondAttribute="bottom" constant="83" id="LBS-eL-pnG"/>
                             <constraint firstItem="Mpi-5r-0NM" firstAttribute="top" secondItem="xXU-SH-Kud" secondAttribute="bottom" constant="32" id="NdJ-Cl-DLL"/>
                             <constraint firstItem="Hvb-IF-exW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="eeX-TQ-ah7"/>
+                            <constraint firstItem="Hvb-IF-exW" firstAttribute="width" secondItem="igZ-tb-PkF" secondAttribute="width" id="gAw-gl-wo0"/>
                             <constraint firstItem="igZ-tb-PkF" firstAttribute="centerX" secondItem="Hvb-IF-exW" secondAttribute="centerX" id="git-UJ-IiU"/>
-                            <constraint firstItem="Hvb-IF-exW" firstAttribute="top" secondItem="igZ-tb-PkF" secondAttribute="bottom" constant="83" id="grk-zu-GcT"/>
                             <constraint firstItem="Hvb-IF-exW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h5d-NE-EjA"/>
                             <constraint firstItem="xXU-SH-Kud" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="nhz-7o-4is"/>
                             <constraint firstItem="xXU-SH-Kud" firstAttribute="centerX" secondItem="Mpi-5r-0NM" secondAttribute="centerX" constant="0.5" id="ohR-BN-s75"/>
@@ -63,7 +65,9 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="Cek-Re-wiT"/>
                                 <exclude reference="eeX-TQ-ah7"/>
+                                <exclude reference="gAw-gl-wo0"/>
                                 <exclude reference="h5d-NE-EjA"/>
                             </mask>
                         </variation>
